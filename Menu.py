@@ -43,6 +43,9 @@ El sistema deberá constar de los siguientes puntos:
 from Modelo import *
 
 def Opciones():
+    """
+    Función que imprime las opciones del menú principal.
+    """
     print("\n--- Bienvenidos al Himalaya --- \n"
         "1. Cargar producto/s \n"
         "2. Buscar producto \n"
@@ -52,6 +55,9 @@ def Opciones():
         "6. Salir \n")
     
 def menu():
+    """
+    Función principal que maneja la navegación por el menú.
+    """
     while True:
         Opciones()
         opcion = input("Selecciona una opción: ")
