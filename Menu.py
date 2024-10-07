@@ -58,7 +58,8 @@ def menu():
     """
     Función principal que maneja la navegación por el menú.
     """
-    while True:
+    seguir = "s"
+    while seguir == "s":
         Opciones()
         opcion = input("Selecciona una opción: ")
 
